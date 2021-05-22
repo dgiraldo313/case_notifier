@@ -1,0 +1,19 @@
+{
+  "name": "case_notifier",
+  "version": "1.0.0",
+  "description": "Check USCIS case status and notify if changes have occcured since last status",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^9.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
